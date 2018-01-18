@@ -6,5 +6,5 @@ function init() {
   // Write your JavaScript code inside the init() function
   let codeCount = 0;
   
-  function 
+  document.body.addE
 }
