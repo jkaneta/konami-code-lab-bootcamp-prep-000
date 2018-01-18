@@ -9,5 +9,14 @@ function init() {
   document.body.addEventListener('keydown', function(e) {
     let keyPressed = e.code;
     
+    if (keyPressed === updatedCode[codeCount]) {
+      codeCount++;
+      if (codeCount === updatedCode.length) {
+        alert('Congratulations!');
+      }
+    } else {
+      codeCount = 0;
+    }
+    
   });
 }
