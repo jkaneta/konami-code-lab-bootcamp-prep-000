@@ -17,6 +17,5 @@ function init() {
     } else {
       codeCount = 0;
     }
-    
   });
 }
