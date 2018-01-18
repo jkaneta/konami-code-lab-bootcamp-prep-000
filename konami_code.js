@@ -8,7 +8,7 @@ function init() {
   
   document.body.addEventListener('keydown', function(e) {
     let keyPressed = e.code;
-    console.log(keyPressed, e, e.which, e.detail, e.location);
+    console.log(keyPressed, e.which, e.detail, e.location);
     if (keyPressed === updatedCode[codeCount]) {
       codeCount++;
       
