@@ -13,6 +13,7 @@ function init() {
       codeCount++;
       if (codeCount === updatedCode.length) {
         alert('Congratulations!');
+        codeCount = 0;
       }
     } else {
       codeCount = 0;
