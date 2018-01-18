@@ -11,6 +11,7 @@ function init() {
     
     if (keyPressed === updatedCode[codeCount]) {
       codeCount++;
+      
       if (codeCount === updatedCode.length) {
         alert('Congratulations!');
         codeCount = 0;
