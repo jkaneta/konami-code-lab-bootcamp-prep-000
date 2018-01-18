@@ -7,7 +7,7 @@ function init() {
   let codeCount = 0;
   
   document.body.addEventListener('keydown', function(e) {
-    let
+    let keyPressed = e.code;
     
   });
 }
